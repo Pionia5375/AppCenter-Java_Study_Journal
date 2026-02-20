@@ -1,5 +1,3 @@
-package me.leejeong;
-
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
@@ -7,7 +5,9 @@ import java.util.Scanner;
 public class ReverseArray {
 
     static void swap(int[] a, int idx1, int idx2) {
-        int t = a[idx1]; a[idx1] = a[idx2]; a[idx2] = t;
+        int t = a[idx1];
+        a[idx1] = a[idx2];
+        a[idx2] = t;
     }
 
     static void reverse(int[] a) {

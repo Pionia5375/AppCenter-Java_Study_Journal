@@ -1,5 +1,3 @@
-package me.leejeong;
-
 import java.util.Scanner;
 
 public class CardConv {
@@ -30,7 +28,8 @@ public class CardConv {
         int retry;
         char[] cno = new char[32]; // 최대 길이: 32
 
-        System.out.println("10진수를 기수변환합니다.");;
+        System.out.println("10진수를 기수변환합니다.");
+        ;
         do {
             do {
                 System.out.print("변환할 음이 아닌 10진수 정수: ");
