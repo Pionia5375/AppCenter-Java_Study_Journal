@@ -1,10 +1,8 @@
-package me.leejeong;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class SelectionSort {
-     public static void main() {
+    public static void main() {
 
         Scanner stdIn = new Scanner(System.in);
 
@@ -12,7 +10,7 @@ public class SelectionSort {
         int length = stdIn.nextInt();
         int[] array = new int[length];
 
-        for (int i = 0; i < length; i ++) {
+        for (int i = 0; i < length; i++) {
             System.out.println(i + "번째 요소의 값을 입력하세요: ");
             array[i] = stdIn.nextInt();
         }
@@ -32,7 +30,7 @@ public class SelectionSort {
     }
 
     static void selectionSort(int[] array, int length) {
-        for (int i = 0; i < length - 1; i++ ) {
+        for (int i = 0; i < length - 1; i++) {
             int min = i;
             for (int j = i + 1; j < length; j++)
                 if (array[j] < array[min])

@@ -1,5 +1,3 @@
-package me.leejeong;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -12,7 +10,7 @@ public class InsertionSort {
         int length = stdIn.nextInt();
         int[] array = new int[length];
 
-        for (int i = 0; i < length; i ++) {
+        for (int i = 0; i < length; i++) {
             System.out.println(i + "번째 요소의 값을 입력하세요: ");
             array[i] = stdIn.nextInt();
         }
