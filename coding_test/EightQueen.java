@@ -25,7 +25,7 @@ public class EightQueen {
         }
     }
 
-    static void main() {
+    static void main(String[] args) {
         set(0);
     }
 }

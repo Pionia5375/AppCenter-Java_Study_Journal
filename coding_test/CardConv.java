@@ -20,7 +20,7 @@ public class CardConv {
         return digits;
     }
 
-    static void main() {
+    static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
         int no;
         int cd;
@@ -29,7 +29,6 @@ public class CardConv {
         char[] cno = new char[32]; // 최대 길이: 32
 
         System.out.println("10진수를 기수변환합니다.");
-        ;
         do {
             do {
                 System.out.print("변환할 음이 아닌 10진수 정수: ");

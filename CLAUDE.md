@@ -9,7 +9,10 @@ This is a personal study journal for AppCenter Java/Spring Boot learning. It con
 ## Structure
 
 - `spring/` — Daily study notes as Markdown files, named `YYYY_MM_DD.md`. Topics progress from Java basics (variables, types, methods) through Spring Boot, JPA, and Spring Security.
-- `coding_test/` — Java algorithm practice files (search, conversion, prime numbers, etc.). Standalone `.java` files with `main` methods — run individually with `javac` + `java`.
+- `coding_test/` — Java algorithm practice files (search, conversion, prime numbers, etc.). Standalone `.java` files with `main` methods — compile and run individually:
+  ```
+  javac coding_test/FileName.java && java -cp coding_test FileName
+  ```
 
 ## Conventions
 

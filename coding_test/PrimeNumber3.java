@@ -1,7 +1,5 @@
-package me.leejeong;
-
 public class PrimeNumber3 {
-    static void main() {
+    static void main(String[] args) {
         int counter = 0;
         int ptr = 0;
         int[] prime = new int[500];
@@ -9,7 +7,7 @@ public class PrimeNumber3 {
         prime[ptr++] = 2;
         prime[ptr++] = 3;
 
-        for (int n = 5 ; n <= 1000; n += 2) {
+        for (int n = 5; n <= 1000; n += 2) {
             boolean flag = false;
 
             for (int i = 1; prime[i] * prime[i] < n; i++) {

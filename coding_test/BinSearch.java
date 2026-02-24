@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class BinSearch {
 
-    static int BinSearch(int[] array, int max, int key) {
+    static int binSearch(int[] array, int max, int key) {
         int ptl = 0;
         int ptr = max - 1;
 
@@ -19,7 +19,7 @@ public class BinSearch {
         return -1;
     }
 
-    static void main() {
+    static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
 
         System.out.println("배열의 길이를 입력하세요: ");
@@ -40,7 +40,7 @@ public class BinSearch {
         System.out.println("키의 값을 입려히세요: ");
         int key = stdIn.nextInt();
 
-        int res = BinSearch(array, max, key);
+        int res = binSearch(array, max, key);
         System.out.println("이진 탐색의 결과 (-1일 시 탐색 실패): " + res + "번째 인덱스");
     }
 }

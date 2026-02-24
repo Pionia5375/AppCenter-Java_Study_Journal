@@ -16,7 +16,7 @@ public class ReverseArray {
         }
     }
 
-    static void main() {
+    static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
         Random rand = new Random();
 

@@ -11,7 +11,7 @@ public class Hanoi {
             move(no - 1, 6 - x - y, y);
     }
 
-    static void main() {
+    static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
 
         System.out.println("하노이의 탑");

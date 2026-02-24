@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class SeqSearchSen {
-    static int SeqSearchSen(int a[], int max, int key) {
+    static int seqSearchSen(int a[], int max, int key) {
         int i = 0;
         a[max] = key;
 
@@ -14,7 +14,7 @@ public class SeqSearchSen {
         return i == max ? -1 : i;
     }
 
-    static void main() {
+    static void main(String[] args) {
         Scanner stdin = new Scanner(System.in);
 
         System.out.println("요소의 수: ");
@@ -33,7 +33,7 @@ public class SeqSearchSen {
         int key = stdin.nextInt();
 
         System.out.println("순차 검색을 시작합니다.");
-        int res = SeqSearchSen(array, max, key);
+        int res = seqSearchSen(array, max, key);
         System.out.println("검색 결과: " + res + "번째 요소");
 
     }
